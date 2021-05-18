@@ -44,7 +44,4 @@ public class PlayerScript : MonoBehaviour
     }
 }
 
-public enum MoveType
-{
-    AddForce, Velocity
-}
+
