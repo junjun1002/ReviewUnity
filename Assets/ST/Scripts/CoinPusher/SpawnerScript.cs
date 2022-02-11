@@ -66,9 +66,9 @@ public class SpawnerScript : MonoBehaviour
             Instantiate(m_coin, m_spawnPoint.transform.position, m_spawnPoint.transform.rotation);
         }
     }
-}
 
-public enum MoveType
-{
-    AddForce, Velocity
+    public enum MoveType
+    {
+        AddForce, Velocity
+    }
 }

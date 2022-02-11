@@ -49,5 +49,9 @@ namespace Breakout
             }
         }
     }
+    public enum MoveType
+    {
+        AddForce, Velocity
+    }
 }
 
